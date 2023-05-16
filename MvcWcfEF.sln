@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceApp", "WcfServiceApp\WcfServiceApp.csproj", "{34D0081F-6C00-4A5E-9BE6-F8817A34808D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "MvcApp\MvcApp.csproj", "{58401A12-895B-4F0B-A1E0-E04B4CB1414F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34D0081F-6C00-4A5E-9BE6-F8817A34808D} = {34D0081F-6C00-4A5E-9BE6-F8817A34808D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D0081F-6C00-4A5E-9BE6-F8817A34808D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D0081F-6C00-4A5E-9BE6-F8817A34808D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D0081F-6C00-4A5E-9BE6-F8817A34808D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D0081F-6C00-4A5E-9BE6-F8817A34808D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58401A12-895B-4F0B-A1E0-E04B4CB1414F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58401A12-895B-4F0B-A1E0-E04B4CB1414F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58401A12-895B-4F0B-A1E0-E04B4CB1414F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58401A12-895B-4F0B-A1E0-E04B4CB1414F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0BA38E5-C98E-44C3-9AA9-AB5BAC63D3CA}
+	EndGlobalSection
+EndGlobal
